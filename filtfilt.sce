@@ -1,7 +1,8 @@
 //This is a Signal Processing toolbox function
-//Author: Rashmi Patankar
+//Author: Rashmi Patankar, FOSSEE IIT Bombay
 // y = filtfilt (b, a, x)
-//Forward and reverse filter the signal. This corrects for phase distortion introduced by a one-pass filter, though it does square the magnitude response in the process. That’s the theory at least. In practice the phase correction is not perfect, and magnitude response is distorted, particularly in the stop band. 
+//Forward and reverse filter the signal. 
+//This corrects for phase distortion introduced by a one-pass filter, though it does square the magnitude response in the process. That’s the theory at least. In practice the phase correction is not perfect, and magnitude response is distorted, particularly in the stop band. 
 //Example 
 //[b, a]=butter(3, 0.1);                  # 5 Hz low-pass filter
 //t = 0:0.01:1.0;                         # 1 second sample
