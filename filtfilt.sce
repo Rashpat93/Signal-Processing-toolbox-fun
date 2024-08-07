@@ -1,3 +1,6 @@
+//This is a Signal Processing toolbox function
+//Author: Rashmi Patankar
+
 function y = filtfilt(b, a, x)
 
   // Check for correct number of input arguments
